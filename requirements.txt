@@ -1,0 +1,12 @@
+colorama
+graphviz
+matplotlib
+nltk
+numpy
+pandas
+plotly
+seaborn
+scikit-learn
+tqdm
+wordcloud
+vaderSentiment

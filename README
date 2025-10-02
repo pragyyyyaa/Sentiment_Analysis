@@ -1,0 +1,47 @@
+# Social Media Sentiment Analysis
+
+This project performs **Sentiment Analysis** on social media text data using **VADER (Valence Aware Dictionary for Sentiment Reasoning)** from the NLTK library.  
+The goal is to analyze the sentiment of posts (positive, negative, or neutral) and visualize insights.
+
+## 📌 Features
+- Data preprocessing (cleaning, tokenization, lemmatization, stopword removal)
+- Sentiment classification using **VADER SentimentIntensityAnalyzer**
+- Visualization of sentiment distribution using Matplotlib, Seaborn, and Plotly
+- WordCloud generation for frequent words
+- Interactive visualizations with Plotly
+
+## 🛠️ Technologies Used
+- Python 3.x
+- Pandas, NumPy for data handling
+- NLTK for text processing and sentiment analysis
+- VADER for sentiment scoring
+- Seaborn, Matplotlib, Plotly for visualizations
+- WordCloud for word frequency representation
+
+## 📂 Project Structure
+- Social_Media_Sentiment_Analysis.ipynb # Main Jupyter Notebook
+- sentimentdataset.csv # Input dataset 
+- requirements.txt # Python dependencies
+- README.md # Project documentation
+
+## ⚙️ Installation
+Clone the repository and install dependencies:
+```bash
+git clone https://github.com/your-username/social-media-sentiment-analysis.git
+cd social-media-sentiment-analysis
+
+jupyter notebook Social_Media_Sentiment_Analysis.ipynb
+
+import nltk
+nltk.download('vader_lexicon')
+nltk.download('punkt')
+nltk.download('stopwords')
+nltk.download('wordnet')
+nltk.download('omw-1.4')
+nltk.download('averaged_perceptron_tagger')
+
+
+---
+
+
+
